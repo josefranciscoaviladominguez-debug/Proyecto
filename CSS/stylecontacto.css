@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* CABECERA */
+.main-header {
+    background: #004a99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.logo img {
+    width: 120px;   
+    height: auto;    
+    display: block; 
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li { 
+    margin-left: 20px; 
+}
+
+.main-nav a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+section {
+    padding: 40px 5%;
+    border-bottom: 1px solid #ccc;
+    text-align: center; 
+}
+
+/* Contacto */
+.contacto-contenedor {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-contacto {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.form-contacto label { 
+    display: block; 
+    margin-top: 10px; 
+}
+
+.form-contacto input, 
+.form-contacto select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.mapa {
+    flex: 1;
+    min-width: 300px;
+}
+
+.main-footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
